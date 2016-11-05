@@ -152,4 +152,19 @@ module.exports = {
     serviceworker: true,
     es6: true,
   },
+  globals: {
+    // moped uses babel-plugin-import-globals to inject a bunch of helpful extra globals
+    Component: false,
+    Link: false,
+    logout: false,
+    Match: false,
+    Miss: false,
+    NavigationPrompt: false,
+    PropTypes: false,
+    React: false,
+    ReactDOM: false,
+    Redirect: false,
+    render: false,
+    request: false,
+  },
 };

@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-moped",
-  "version": "2.0.1",
+  "version": "0.0.1",
   "description": "ESLint default settings for moped",
   "main": "index.js",
   "scripts": {
