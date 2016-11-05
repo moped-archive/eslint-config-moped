@@ -1,0 +1,25 @@
+{
+  "name": "eslint-config-moped",
+  "version": "2.0.1",
+  "description": "ESLint default settings for moped",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mopedjs/eslint-config-moped.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "ForbesLindesay",
+  "license": "MIT",
+  "dependencies": {
+    "babel-eslint": "^6.0.4"
+  },
+  "files": [
+    "index.js"
+  ]
+}
