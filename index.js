@@ -155,6 +155,8 @@ module.exports = {
   globals: {
     // moped uses babel-plugin-import-globals to inject a bunch of helpful extra globals
     Component: false,
+    connect: false,
+    connectErrors: false,
     Link: false,
     logout: false,
     Match: false,
