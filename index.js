@@ -8,7 +8,7 @@ module.exports = {
     'comma-dangle': [WARNING, 'always-multiline'],
     'no-constant-condition': [ERROR],
     'no-control-regex': [ERROR],
-    'no-debugger': [ERROR],
+    'no-debugger': [WARNING],
     'no-dupe-args': [ERROR],
     'no-dupe-keys': [ERROR],
     'no-duplicate-case': [ERROR],
@@ -45,7 +45,6 @@ module.exports = {
     'no-fallthrough': [ERROR],
     'no-floating-decimal': [ERROR],
     'no-implied-eval': [ERROR],
-    'no-invalid-this': [WARNING],
     'no-iterator': [ERROR],
     'no-lone-blocks': [ERROR],
     'no-loop-func': [ERROR],
@@ -154,6 +153,7 @@ module.exports = {
   },
   globals: {
     // moped uses babel-plugin-import-globals to inject a bunch of helpful extra globals
+    bql: false,
     Component: false,
     connect: false,
     connectErrors: false,
@@ -168,5 +168,6 @@ module.exports = {
     Redirect: false,
     render: false,
     request: false,
+    styled: false,
   },
 };
